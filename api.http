@@ -1,0 +1,21 @@
+### Ir a la pagina principal
+http://localhost:3000
+
+### Mostrar todos los productos
+GET http://localhost:3000/electronicos
+
+### Mostrar los productos de una categoria
+GET http://localhost:3000/electronicos/categorias/:nombre
+
+### Mostrar un producto por id
+GET http://localhost:3000/electronicos/66787729d8fc79e88b431bf9
+
+### Crear un producto
+POST http://localhost:3000/electronicos/
+content-type application/json
+
+### Actualizar un producto
+PUT http://localhost:3000/electronicos/:id
+
+### Borrar un producto  
+DELETE http://localhost:3000/electronicos/:id
